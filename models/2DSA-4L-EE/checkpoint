@@ -1,0 +1,2 @@
+model_checkpoint_path: "iter369_lr0.001000_trn_5.4007_cv2.4057mod"
+all_model_checkpoint_paths: "iter369_lr0.001000_trn_5.4007_cv2.4057mod"
