@@ -1,0 +1,23 @@
+DATASET
+
+Open-source dataset 1
+
+The open-source dataset [1], [2] consists of 30 speakers from Voice Bank corpus [3]: 28 are included in the train set and 2 in the test set. In the training set, 40 different conditions are considered: 10 types of noise with 4 signal-to-noise ratios (SNR) (15, 10, 5, and 0 dB). There are around 10 different sentences in each condition per training speaker. Similarly, in the evaluation set, 20 different
+conditions are considered: 5 types of noise with 4 SNR (17.5, 12.5, 7.5, and 2.5 dB). There are around 20 different sentences
+in each condition per test speaker. Importantly, the test set is totally unseen by (and different from) the training set.
+Development set is randomly selected and disjoint from the training set.
+
+Large-scale dataset 2
+
+This dataset contains a 70-hour train set with 301 speakers and a 7-hour test set with 38 speakers. The clean speech is extracted from WSJ corpus [4]. Varies types of noise are selected from Audioset [5] and CHiME-3 [6]. The noises mainly come from streets, cafes, indoor environments, motor vehicles, natural environments, and music. In this dataset, there is no duplication of clean speech and noisy speech. The SNR varies from -5, -2.5, 0, 2.5, 5, and 10dB in the train set. The SNR of the test set varies from -1.5, 0, 3, 6, and 9dB. The development set is randomly selected from the train set, which accounts for about 10% of the training set. 
+
+
+Reference:
+[1] S. Pascual, A. Bonafonte, and J. Serra, “Segan: Speech enhancement generative adversarial network,” Interspeech, pp. 3642–3646, 2017.
+[2] C. Valentini-Botinhao, X. Wang, S. Takaki, and J. Yamagishi, “Investigating rnn-based speech enhancement methods for noise-robust text-tospeech,” in ISCA Speech Synthesis Workshop, 2016, pp. 146–152.
+[3] C. Veaux, J. Yamagishi, and S. King, “The voice bank corpus: Design, collection and data analysis of a large regional accent speech database,” in Oriental COCOSDA held jointly with 2013 Conference on Asian Spoken Language Research and Evaluation (O-COCOSDA/CASLRE),
+2013, pp. 1–4.
+[4] D. B. Paul and J. M. Baker, “The design for the wall street journal-based csr corpus,” in Proceedings of the workshop on Speech and Natural Language. Association for Computational Linguistics, 1992, pp. 357–362.
+[5] J. F. Gemmeke, D. P. Ellis, D. Freedman, A. Jansen, W. Lawrence, R. C. Moore, M. Plakal, and M. Ritter, “Audio set: An ontology and human-labeled dataset for audio events,” in IEEE International Conference on
+Acoustics, Speech and Signal Processing, 2017, pp. 776–780.
+[6] J. Barker, R. Marxer, E. Vincent, and S. Watanabe, “The third chime-speech separation and recognition challenge: Dataset, task and baselines,” in IEEE Workshop on Automatic Speech Recognition and Understanding, 2015, pp. 504–511.
