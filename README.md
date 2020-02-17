@@ -13,7 +13,7 @@ In the folder appendix, more explanations about model structure and hyper-parame
 ![](https://github.com/chenxinglili/Two-dimensional-Self-attention-based-Speech-Enhancement/blob/master/appendix/example.jpg)  
 
 If you have questions please contact:
-Email: lichenxing2015@ia.ac.cn
+Email: lichenxing007@gmail.com
 
 References: <br>
 [1] Cassia Valentini-Botinhao, Xin Wang, Shinji Takaki, and Junichi Yamagishi, “Investigating rnn-based speech enhancement methods for noise-robust text-to-speech,” in 9th ISCA Speech Synthesis Workshop, pp. 146–152.
