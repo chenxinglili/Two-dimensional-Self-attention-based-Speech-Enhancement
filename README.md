@@ -1,6 +1,10 @@
 
-Two-dimensional self-attention-based speech enhancement
+# Two-dimensional self-attention-based speech enhancement
 
+# Requirements
+Tensorflow = 1.4.0
+
+# Datasets
 The speech stored in this git is enhanced by our 2D-SA. 
 We evaluate the performance on two datasets. <br>
 (1) An open-source dataset [1]. <br>
@@ -12,8 +16,12 @@ In the folder appendix, more explanations about model structure and hyper-parame
 
 ![](https://github.com/chenxinglili/Two-dimensional-Self-attention-based-Speech-Enhancement/blob/master/appendix/example.jpg)  
 
+# Contact
 If you have questions please contact:
 Email: lichenxing007@gmail.com
 
 References: <br>
 [1] Cassia Valentini-Botinhao, Xin Wang, Shinji Takaki, and Junichi Yamagishi, “Investigating rnn-based speech enhancement methods for noise-robust text-to-speech,” in 9th ISCA Speech Synthesis Workshop, pp. 146–152.
+
+# More
+A Pytorch implemention will be released soon.
